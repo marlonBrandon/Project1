@@ -2,7 +2,7 @@
 package com.mycompany.test1;
 
 public class Main {
-    public static void main(String args[]){
+    public void main(String args[]){
         Bank banca = new Bank(10);
         banca.add(10);
         banca.sub(4);
