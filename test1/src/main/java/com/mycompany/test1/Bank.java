@@ -4,6 +4,10 @@ public class Bank {
     
     private double credit;
     
+    public Bank(double credit){
+        this.credit=credit;
+    }
+    
     boolean add(double value){
        credit=credit+value;
        return true;
