@@ -8,17 +8,17 @@ public class Bank {
         this.credit=credit;
     }
     
-    boolean add(double value){
+    public double add(double value){
        credit=credit+value;
-       return true;
+       return credit;
     }
     
-    boolean sub(double value){
+    public double sub(double value){
         if(credit-value>0){
             credit=credit-value;
-            return true;
+            return credit;
         }
-        return false;
+        return -1;
     }
     
 }
